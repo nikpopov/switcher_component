@@ -1,0 +1,22 @@
+@import '../theme/styles/variables.scss';
+
+
+.MuiSwitch-colorSecondary.Mui-checked {
+    color: $color-secondary !important;
+}
+
+.MuiSwitch-colorSecondary.Mui-disabled {
+  color: silver !important;
+}
+
+.MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
+  background-color: $color-secondary !important;
+}
+
+.MuiSwitch-switchBase.Mui-disabled + .MuiSwitch-track {
+  background-color: grey !important;
+}
+
+.MuiSwitch-colorSecondary.Mui-disabled +.MuiSwitch-track {
+  color: grey;
+}
